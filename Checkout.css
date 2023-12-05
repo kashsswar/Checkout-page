@@ -1,0 +1,81 @@
+/* Checkout.css */
+
+.checkout {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .checkout h1 {
+    color: #333;
+    font-size: 2em; /* Increased font size for the heading */
+  }
+  
+  .checkout-title {
+    font-size: 1.8em; /* Slightly larger title font size */
+    margin-top: 10px;
+    color: #555; /* Adjusted title color */
+  }
+  
+  .checkout-description {
+    font-size: 1.2em; /* Increased description font size */
+    margin-top: 5px;
+    color: #888; /* Adjusted description color */
+  }
+  
+  .checkout-price {
+    font-size: 2.5em; /* Increased price font size */
+    margin-top: 15px; /* Adjusted top margin */
+    color: #333;
+  }
+  
+  .checkout-product-image {
+    max-width: 100%;
+    max-height: 250px; /* Adjusted maximum height for the image */
+    margin-top: 20px;
+    border-radius: 12px; /* Increased border radius */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2); /* Adjusted box-shadow */
+  }
+  
+  .error-message {
+    color: #ff0033;
+    margin-top: 10px;
+    font-size: 1.1em; /* Adjusted font size */
+  }
+  
+  .checkout-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 18px 35px; /* Adjusted padding for the button */
+    font-size: 1.3em; /* Increased font size for the button */
+    cursor: pointer;
+    border-radius: 6px; /* Increased border radius */
+    margin-top: 25px; /* Adjusted top margin */
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-button:hover {
+    background-color: #45a049;
+  }
+  
+  .grey-circle {
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    padding: 22px; /* Adjusted padding for the circle */
+    display: inline-block;
+  }
+  
+  .purple-circle {
+    background-color: #6a5acd;
+    border-radius: 50%;
+    padding: 18px; /* Adjusted padding for the circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    max-width: 80%; /* Adjusted max-width for the icon */
+    height: auto;
+  }
+  
